@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #d3e8fe;
+    font-size: 24px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #3f8ff8;
+    box-shadow: 1px 1px 50px #549bf7;
+    position: fixed;
+}
+
+#menu{
+    width: 843px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #000;
+    text-decoration: none;
+    font: 16px;
+    padding: 13px 20px 19px 20px;
+}
+
+/*----------EFECTO HOVER--------*/
+#menu ul a:hover{
+    color: #f2f2f2;
+    background: #549bf7;
+}
+
+/*----------CONTENIDO----------*/
+aside{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    font-style: italic;
+    background: #99c8fd;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .6em;
+}
+
+h1{
+    text-align: center;
+    padding-top: 70px;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+figure{
+    padding-bottom: 10px;
+}
+
+/*----------FOOTER----------*/
+footer{
+    width: 100%;
+    height: 140px;
+    background: #3f8ff8;
+}
+
+#qr{
+    width: 220px;
+    height: 140px;
+    margin: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px solid #000;
+    color: #f0ffff;
+    font-size: 15px;
+    background-color: #3c89eee3;
+}
+
+#qr h3{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #3ddcf0;
+}
+
+#qr li{
+    padding-top: 5px;
+}
+
+#qr a :hover{
+    transform: translateY(-5px);
+}
+
+#foot_izq{
+    width: 400px;
+    height: 100px;
+    background: #3f8ff8;
+    float: left;
+}
+
+#foot_der{
+    width: 250px;
+    height: 100px;
+    background: #3f8ff8;
+    float: right;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #f0ffff;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#foot_der h3{
+    color: #3ddcf0;
+    font-size: 20px;
+}
+
+/*----------BOTONES REDES SOCIALES----------*/
+#redes{
+    padding: 10px;
+    background: #3f8ff8;
+}
+
+#redes h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3ddcf0;
+}
+
+#sociales{
+    width: 350px;
+    text-align: center;
+}
+
+#sociales li{
+    display: inline-block;
+}
+
+#sociales li :hover{
+    transform: translateY(-5px);
+}
+
+ul{
+    margin: auto;
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f0ffff;
+}
